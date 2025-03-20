@@ -1,0 +1,6 @@
+px-> Absolute size()
+%->(Related to parent width or height)
+vw/vw-> Related to the screen size
+rem->related to the root element font   
+em->related to its font size
+

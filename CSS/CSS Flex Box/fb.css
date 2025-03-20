@@ -1,0 +1,41 @@
+.parent{
+    height: 800px;
+    display: flex;
+    border: 3px solid black;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.child{
+    height: 50px;
+    width: 50px;
+
+}
+#ra{
+    background-color: red;
+    order: 3;
+    flex-shrink: 5;
+    align-self: flex-start;
+}
+#ar{
+    background-color: blue;
+    order: 2;
+    flex-shrink: 10;
+}
+#ru{
+    background-color: green;
+    order: 1;
+}
+#ur{
+    background-color: aqua;
+    order: -1;
+    flex-grow: 3;
+}
+#ss{
+    background-color: yellow;
+    order: 4;
+    flex-grow: 1;
+}

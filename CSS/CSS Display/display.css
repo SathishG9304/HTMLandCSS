@@ -1,0 +1,88 @@
+.block{
+    display: block;
+    background-color: lightgreen;
+}
+.inline{
+    display: inline;
+    background-color: lightblue;
+    padding: 5px;
+}
+.inline-block{
+    display: inline-block;
+    background-color: lightcoral;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    background-color: lightgoldenrodyellow;
+    gap: 10px;
+    padding: 10px;
+}
+.flex-item{
+    background-color: orange;
+    padding: 10px;
+    flex: 1;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: beige;
+    padding: 10px;
+}
+.inline-grid{
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: lightsteelblue;
+    padding: 10px;
+}
+.inline-table{
+    display: inline-table;
+    background-color: lightseagreen;
+    padding: 10px;
+}
+.list-item{
+    display: run-in;
+    background-color: lightpink;
+}
+.table{
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: lightyellow;
+}
+.table-row{
+    display: table-row;
+}
+.table-cell{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+.table-caption{
+    display: table-caption;
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+}
+.table-column-grip{
+    display: table-column-group;;
+}
+.table-column{
+    display: table-column;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.grid-item{
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+.none{
+    display: none;
+}

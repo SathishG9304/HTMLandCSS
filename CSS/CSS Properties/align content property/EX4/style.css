@@ -1,0 +1,13 @@
+#container{
+    width: 220px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: end;
+}
+
+#container > div{
+    width: 70px;
+    height: 70px;
+}

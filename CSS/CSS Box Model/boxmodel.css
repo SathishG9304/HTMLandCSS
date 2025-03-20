@@ -1,0 +1,25 @@
+h1{
+    color: red;
+    background-color: black;
+    margin-top: 2%;
+    padding: 2%;
+    padding-left: 3%;
+    border: 5px solid green;
+    width: 25vw;
+    height: 15vh;
+    border-radius: 100px;
+    border-bottom: 25px;
+    border-color: blue;
+    border-left: 15px;
+    border-right: 70px;
+    border-style:groove;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 2px;
+    border-collapse: separate;
+}
+div,h1{
+    color: yellow;
+}
+*{
+    color: blue;
+}

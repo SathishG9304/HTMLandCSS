@@ -1,0 +1,24 @@
+p.borderwidth10px{
+    border-style: solid;
+    border-width: 20px;
+}
+p.borderwidth20px{
+    border-style: solid ;
+    border-width: 30px;
+}
+p.thick{
+    border-style: solid;
+    border-width: thick;
+}
+p.thin{
+    border-style: solid;
+    border-width: thin;
+}
+p.medium{
+    border-style: solid;
+    border-width: medium;
+}
+p.dotted{
+    border-style: dotted;
+    border-width: 10px;
+}

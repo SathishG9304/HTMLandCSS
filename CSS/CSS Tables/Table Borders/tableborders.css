@@ -1,0 +1,33 @@
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#customers td, #customers th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#customers tr :nth-child(even){
+    background-color: hwb(128 3% 5%);
+}
+#customers tr :nth-child(odd){
+    background-color: hwb(215 73% 11%);
+}
+#customers tr:hover{
+    background-color: #01c9655f;
+}
+#customers th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+table,th,td{
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}

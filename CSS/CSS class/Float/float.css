@@ -1,0 +1,9 @@
+img{
+    float: left;
+    /* float: inline-end; */
+    /* float: right; */
+    /* float: inherit; */
+    /* float: unset; */
+    /* float: inline-start; */
+    /* float: none; */;
+}
