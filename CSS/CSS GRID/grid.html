@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: grid;
+            background-color: #2196f3;
+            padding: 5px;
+            gap: 5px;
+            grid-template-areas:
+                "header header"
+                "menu content"
+                "footer footer";
+            grid-template-columns: 1fr 3fr;
+        }
+        .container >div{
+            background-color: rgba(255,255,255,0.8);
+            padding: 10px;
+        }
+        .container>div.header{
+            text-align: center;
+            grid-area: header;
+        }
+        .container>div.menu{
+            grid-area: menu;
+        }
+        .container >div.content{
+            grid-area: content;
+        }
+        .container >div.footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Grid Layout</h1>
+    <p>Grid layout module offers a grid based layout system, with rows and coloumns.</p>
+    <p>Grid layout Module makes it easy to design complex and responsive webpages without using floats and positioning. </p>
+
+    <div class="container">
+        <div class="header">
+            <h2>My Header</h2>
+        </div>
+
+        <div class="menu">
+            <a href="#">Link 1</a><br>
+            <a href="#">Link 2</a><br>
+            <a href="#">Link 3</a>
+        </div>
+
+        <div class="content">
+            <h3>Paragraph</h3>
+            <p>A well-structured cybersecurity policy and compliance documentation project is crucial for any organization seeking to protect its sensitive data and maintain regulatory adherence. This process begins with a thorough study of established security frameworks like NIST, ISO 27001, and CIS Controls, along with relevant regulations such as GDPR. Following this foundational understanding, a comprehensive assessment of the organization's current security practices is essential, including gap and risk analyses to identify vulnerabilities and areas for improvement. </p>
+        </div>
+        <div class="footer">
+            <h4>Footer</h4>
+        </div>
+    </div>
+</body>
+</html>

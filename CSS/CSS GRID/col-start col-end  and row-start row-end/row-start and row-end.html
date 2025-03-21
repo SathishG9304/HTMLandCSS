@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            .grid-container{
+                display: grid; /* Use display is grid to make block level container*/
+                background-color: lightblue;
+                padding: 10px;
+                grid-template-columns: auto auto auto;
+            }
+            .grid-container > div{
+                background-color: #f1f2f4;
+                border: 1px solid black;
+                padding: 10px;
+                font-size: 25px;
+                text-align: center;
+            }
+            /*This is one way to grid col start and grid col end*/
+            /* .item1{
+                grid-row-start: 1;
+                grid-row-end: 3;
+            } */
+
+            /*Another way of grid col start and grid col end*/
+            .item1{
+                grid-row: 1 / span 2;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Grid Layout</h1>
+        <div class="grid-container">
+            <div class="item1">1</div>
+            <div class="item2">2</div>
+            <div class="item3">3</div>
+            <div class="item4">4</div>
+            <div class="item5">5</div>
+            <div class="item6">6</div>
+            <div class="item7">7</div>
+            <div class="item8">8</div>
+        </div>
+        
+    </body>
+</html>

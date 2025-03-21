@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+           .grid-container{
+                display: grid;
+                /* grid container applied here with 4 col grids
+                grid-template-columns: auto auto auto auto; 
+                
+                /* Set a fixed size for column 1, 2, and 4, and keep column 3 as auto size:*/
+
+                /* grid-template-columns: 80px 200px auto 40px; */ 
+
+                /*Cell Sizing with the fr Unit*/
+
+                /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+                
+                grid-template-columns: 1fr 2fr 1fr 1fr;
+
+                background-color: chartreuse;
+                padding: 5px;
+           }
+           .grid-container>div{
+                background-color: aqua;
+                border: 2px solid black;
+                padding: 5px;
+                font-size: 30px;
+                text-align: center;
+           }
+        </style>
+    </head>
+    <body>
+        <h1>Grid Layout</h1>
+        <div class="grid-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+        </div>
+        
+    </body>
+</html>

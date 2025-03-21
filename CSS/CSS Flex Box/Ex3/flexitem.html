@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            .flex-container{
+                display: flex;
+                height: 600px;
+                flex-wrap: wrap-reverse;
+                background-color: dodgerblue;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                align-content: space-evenly;
+            }
+            .flex-container >div{
+                background-color: #f1f1f1;
+                width: 100px;
+                margin: 10px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Flex Box</h1>
+        <div class="flex-container">
+            <div style="order: 3">1</div>
+            <div style="order: 2">2</div>
+            <div style="order: 4">3</div>
+            <div style="order: 1">4</div>
+            <div style="flex-grow: 5">5</div>
+            <div style="flex-grow: 20">6</div>
+            <div style="flex-shrink: 0">7</div>
+            <div>8</div>
+            <div style="align-self: flex-end">9</div>
+            <div style="flex-basis: 200px">10</div>
+            <div style="align-self: center">11</div>
+            <div style="flex: 0 0 200px">12</div>
+        </div>
+    </body>
+</html>
